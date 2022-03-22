@@ -18,7 +18,7 @@ let faveNum = 5;
 
 //CODE HERE
 
-let lovesCode = 'True';
+let lovesCode = true ;
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,7 +42,9 @@ if (faveNumber === 13){
 
 //CODE HERE
 
+let faveNumber = 5; 
+
 for (let i = 0; i <= 5; i++){
-  console.log(faveNumber[i])
+  console.log(faveNumber)
 }
 

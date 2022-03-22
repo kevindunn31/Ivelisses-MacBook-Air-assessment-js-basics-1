@@ -67,6 +67,9 @@ let gitStatusDefination = "Is a command that displays the state of the working d
 
 let gitAddDefination = "Is typically the first command, its a function that allows the ability to save a snapshot of your current project."
 let gitAddCode = "To add all files."
+// git add . will saved any changes you made to the file 
+
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -80,6 +83,8 @@ let gitAddCode = "To add all files."
 
 let gitCommitDefination = "Is a command that captures a snapshot of the projects currently staged changes."
 letCommitCode = "Initial commit."
+
+// git commit -m " " will be any note that you make when you send it as a respository to your github
 
 
 //////////////////PROBLEM 8////////////////////
