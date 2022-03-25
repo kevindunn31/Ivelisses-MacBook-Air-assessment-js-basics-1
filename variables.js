@@ -42,9 +42,9 @@ if (faveNumber === 13){
 
 //CODE HERE
 
-let faveNumber = 5; 
+
 
 for (let i = 0; i <= 5; i++){
-  console.log(faveNumber)
+  console.log(faveNum)
 }
 

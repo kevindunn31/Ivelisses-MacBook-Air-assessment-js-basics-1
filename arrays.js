@@ -1,12 +1,12 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
-const colorCopy = ['red', 'green', 'black']
+const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
 
-const faveColors = colorCopy
-console.log(colorCopy.slice(2))
+const colorCopy = faveColors.slice(0, 2)
+console.log(colorCopy)
 
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
@@ -21,12 +21,12 @@ colorCopy.push('Yellow')
   numbers array that will capture only the middle numbers (2, 3, 4).
 */
 
-const middleNums = [1, 2, 3, 4, 5]
+const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
 
 
-middleNums.splice(0, 6)
+middleNums.slice(1, 4)
 
 
 //////////////////PROBLEM 4////////////////////
@@ -42,7 +42,9 @@ middleNums.splice(0, 6)
 
 
 // CODE HERE
-answers = []
+const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
+
+let answers = []
 
 function bigOrSmall(answers) {
   for(let i = 0; i > 100; i++) {
